@@ -1,5 +1,5 @@
-import './App.css';
 import DataFetching from './DataFetching';
+import './App.css';
 
 function App() {
   return (

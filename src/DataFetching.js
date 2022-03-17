@@ -1,6 +1,4 @@
 import {useState, useEffect} from 'react';
-import React from 'react';
-
 import './DataFetching.css'
 
 const DataFetching = () => {
@@ -39,7 +37,6 @@ const DataFetching = () => {
                 </select>
             </div>
             <div className='image'>
-                {console.log(imageSrc)}
                 <img src={imageSrc} className='img' />
             </div>
         </> 
